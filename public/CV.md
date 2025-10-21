@@ -41,7 +41,7 @@ Self-taught **Full-Stack MERN Developer** (MERN Stack) with a background in Info
 * Successfully managed the **full product lifecycle** for two complex web applications, from initial architecture design to final deployment on platforms like Render and Cloudflare.
 * Demonstrated a **self-driven, analytical approach** to mastering MERN technologies and applying best coding practices in real-world, complete projects.
 
-### Analytical & Technical Operations Experience (Prior to 2023)
+### Analytical & Technical Operations Experience
 * **Backend Logic & Data Integrity:** Gained practical, hands-on experience working with operational databases (e.g., SQL/Oracle environments), strengthening understanding of **backend data logic** and **data integrity principles**.
 * **Problem-Solving & Debugging:** Developed strong analytical **troubleshooting and debugging skills** through extensive troubleshooting and maintenance of complex technical systems, which translates directly to efficient system debugging in development.
 
