@@ -1,3 +1,42 @@
+# Portfolio (Summary)
+
+Author: khawla sarhan
+
+GitHub repository:  https://github.com/khawlasarhan92-dev/my-portfolio.git
+
+
+Short and clear README for the portfolio project with the essential info only.
+
+Main pages:
+- Home: brief intro and services.
+- Projects / Work: project pages (see `app/projects/*`).
+- CV: curriculum vitae page (see `app/cv`).
+- Contact: contact details / form.
+
+Included projects:
+- e-commerce-store (`projects/e-commerce-store`)
+- kh-media-app (`projects/kh-media-app`)
+
+CV details:
+- `CV.md` exists in `public/` and is used on the CV page.
+- To generate a PDF CV run: `npm run generate-cv` (runs `scripts/generate-cv-pdf.js`).
+
+Run locally (PowerShell):
+
+```powershell
+cd 'C:\Users\DELL\Desktop\portfolio'
+npm install
+npm run dev
+```
+
+Build / Production:
+
+```powershell
+npm run build
+npm start
+```
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
