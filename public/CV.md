@@ -1,8 +1,9 @@
 # KHAWLA SARHAN
 Full-Stack JavaScript/TypeScript Developer
 
-Email: khawlasarhan92@gmail.com | Phone: +963 937 312 600
-[GitHub](https://github.com/khawlasarhan92-dev) | [LinkedIn]()
+Email: <a href="mailto:khawlasarhan92@gmail.com">khawlasarhan92@gmail.com</a> | Phone: <a href="tel:+963937312600">+963 937 312 600</a>
+<a href="https://github.com/khawlasarhan92-dev" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.linkedin.com/in/khawla-sarhan-fullstack/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+<a href="https://my-portfolio-b6a.pages.dev" target="_blank" rel="noopener noreferrer">Portfolio</a>
 Location: Open to remote or onsite opportunities.
 
 ## PROFESSIONAL SUMMARY

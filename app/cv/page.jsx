@@ -78,19 +78,20 @@ export default function CVPage() {
           }
 
           // Extract URLs based on keywords (using a general URL pattern)
-          const urlMatch = l.match(/https?:\/\/[\w\.\\/\-?=&#%]+/i);
+          // Find all URL occurrences on the line (if multiple are present)
+          const urlMatches = l.match(/https?:\/\/[\w.\/\-?=&#%]+/ig) || [];
 
-          if (!gh && /github\.com/i.test(l) && urlMatch) {
-            gh = urlMatch[0];
+          if (!gh && /github\.com/i.test(l)) {
+            // Prefer a matched URL that contains github.com
+            gh = (urlMatches.find((u) => /github\.com/i.test(u)) || urlMatches[0] || '');
           }
-          if (!li && /linkedin\.com/i.test(l) && urlMatch) {
-            li = urlMatch[0];
+          if (!li && /linkedin\.com/i.test(l)) {
+            // Prefer a matched URL that contains linkedin.com
+            li = (urlMatches.find((u) => /linkedin\.com/i.test(u)) || urlMatches[0] || '');
           }
-          if (!pf && /portfolio|live demo|pages\.dev|vercel\.app/i.test(l) && urlMatch) {
-            // Note: This needs refinement if multiple project links are present, but works for the header link
-            if (!pf || l.toLowerCase().includes('portfolio')) {
-                pf = urlMatch[0];
-            }
+          if (!pf && /portfolio|live demo|pages\.dev|vercel\.app/i.test(l)) {
+            // Prefer a matched URL that looks like a portfolio/live demo
+            pf = (urlMatches.find((u) => /portfolio|pages\.dev|vercel\.app|live\s?demo/i.test(u)) || urlMatches[0] || '');
           }
           if (!loc && /Open to:|Location:|Available for/i.test(l)) {
             loc = l;
