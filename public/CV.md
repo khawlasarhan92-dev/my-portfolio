@@ -1,33 +1,44 @@
 # KHAWLA SARHAN
-Full-Stack JavaScript/TypeScript Developer
+Full-Stack Developer | MERN Stack & DevOps
+Computer Networks Graduate transitioning to Software Development
 
 Email: <a href="mailto:khawlasarhan92@gmail.com">khawlasarhan92@gmail.com</a> | Phone: <a href="tel:+963937312600">+963 937 312 600</a>
 <a href="https://github.com/khawlasarhan92-dev" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://www.linkedin.com/in/khawla-sarhan-fullstack/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
 <a href="https://my-portfolio-b6a.pages.dev" target="_blank" rel="noopener noreferrer">Portfolio</a>
-Location: Open to remote or onsite opportunities.
+Location: Damascus, Syria | Open to remote or onsite opportunities.
 
 ## PROFESSIONAL SUMMARY
-Self-taught **Full-Stack MERN Developer** (MERN Stack) with a background in Informatics Engineering. Proven experience building, deploying, and maintaining two end-to-end web applications (a real-time social platform and an e-commerce store). Strong proficiency in **React/Next.js** frontends, **Node.js/Express** backends, MongoDB data modeling, real-time features (Socket.IO), and secure authentication (JWT). Seeking a Junior/Entry-level role where analytical, self-driven learning and deployment skills can be utilized.
+**Computer Networks Engineering** graduate with IT sector experience, now specializing in **Full-Stack Development & DevOps**. Self-taught developer with hands-on experience building production-ready applications from concept to deployment. Strong analytical foundation from networking background applied to modern software development workflows including **containerization, CI/CD, and cloud deployment**. Seeking a Junior/Entry-level role where technical foundation and continuous learning can contribute to innovative projects.
 
 ---
 
 ## CORE TECHNICAL SKILLS
-- **Languages:** JavaScript (ES6+), TypeScript (Applied)
-- **Front-end:** React, Next.js, Redux Toolkit, Tailwind CSS
-- **Back-end & DB:** Node.js, Express, MongoDB (Mongoose), JWT, Bcrypt
-- **Tools & DevOps:** Socket.IO, Git, GitHub, npm, Render, Cloudflare Pages, Cloudinary
+- **Languages:** JavaScript (ES6+), TypeScript, HTML5, CSS3
+- **Frontend:** React.js, Next.js, Redux Toolkit, Tailwind CSS, Responsive Design
+- **Backend:** Node.js, Express.js, RESTful APIs, MongoDB (Mongoose), JWT Authentication
+- **DevOps & Deployment:** Docker, Kubernetes, CI/CD (GitHub Actions), Nginx Reverse Proxy
+- **Tools:** Git/GitHub, Socket.IO, VS Code, Postman, MongoDB Compass
+- **Cloud & Platforms:** Render, Cloudflare Pages, Cloudinary
 
 ---
 
 ## SELECTED PROJECTS
 
-### 1. KH Media App — Real-Time Social Platform (Next.js, Socket.IO, TypeScript) | (2025)
+### 1. DevOps Practice — Full-Stack Task Management with CI/CD | (November 2025)
+-> **GitHub:** [https://github.com/khawlasarhan92-dev/DevOps-Practice](https://github.com/khawlasarhan92-dev/DevOps-Practice)
+* **Production-Ready Development:** Built complete MERN stack application with responsive React frontend and RESTful API backend
+* **DevOps Implementation:** Created comprehensive **Docker containerization** for all services (Frontend, Backend, Database, Nginx Proxy)
+* **CI/CD Pipeline:** Implemented automated **GitHub Actions** workflow with testing, building, and deployment to GitHub Container Registry
+* **Kubernetes Ready:** Configured complete **Kubernetes manifests** for scalable cloud deployment with proper networking and storage
+* **Technologies:** React.js, Node.js, Express, MongoDB, Docker, Kubernetes, GitHub Actions, Nginx
+
+### 2. KH Media App — Real-Time Social Platform (Next.js, Socket.IO, TypeScript) | (2025)
 -> Live Demo: [https://kh-media-app.pages.dev](https://kh-media-app.pages.dev)
 * **Real-Time Core:** Implemented live chat, user presence, and instant notifications using **Socket.IO** with JWT authorization for secure data exchange.
 * **Security & Auth:** Developed secure, token-based authentication (JWT) and user registration with **Email Verification (OTP)** logic.
 * **Performance:** Optimized user experience using Next.js Image Optimization, lazy loading, and a responsive UI built with Tailwind CSS.
 
-### 2. Full-Stack E-commerce Platform (Client + Admin Portal) | (2025)
+### 3. Full-Stack E-commerce Platform (Client + Admin Portal) | (2025)
 -> Live Demo: [https://mernstack-e-commerce-store.pages.dev](https://mernstack-e-commerce-store.pages.dev)
 * **Admin & Security:** Implemented robust **Role-Based Access Control (RBAC)** for admin routes, enabling secure management of product, order, and user data lifecycles.
 * **Data Management:** Engineered advanced product filtering and search capabilities utilizing **MongoDB Aggregation Pipelines**.
@@ -35,20 +46,32 @@ Self-taught **Full-Stack MERN Developer** (MERN Stack) with a background in Info
 
 ---
 
-## PROFESSIONAL EXPERIENCE (TRANSFERABLE SKILLS)
+## PROFESSIONAL EXPERIENCE
 
-### Self-directed MERN Development & Product Management (Since 2023)
-* Successfully managed the **full product lifecycle** for two complex web applications, from initial architecture design to final deployment on platforms like Render and Cloudflare.
-* Demonstrated a **self-driven, analytical approach** to mastering MERN technologies and applying best coding practices in real-world, complete projects.
+### Full-Stack Developer (Self-Directed Projects) | April 2023 - Present
+**Personal Development | Damascus, Syria**
+* **Career Transition:** Successfully transitioned from IT operations to software development through intensive self-learning and project-based experience
+* **Technical Growth:** Mastered MERN stack technologies and modern DevOps practices through real-world application development
+* **DevOps Skills:** Gained hands-on experience with containerization, CI/CD pipelines, and cloud deployment strategies
+* **Problem Solving:** Applied analytical skills from networking background to debug complex applications and optimize performance
 
-### Analytical & Technical Operations Experience
-* **Backend Logic & Data Integrity:** Gained practical, hands-on experience working with operational databases (e.g., SQL/Oracle environments), strengthening understanding of **backend data logic** and **data integrity principles**.
-* **Problem-Solving & Debugging:** Developed strong analytical **troubleshooting and debugging skills** through extensive troubleshooting and maintenance of complex technical systems, which translates directly to efficient system debugging in development.
+### IT Specialist | 2016 - 2023
+**Government Sector | Damascus, Syria**
+* Managed IT infrastructure and provided technical support for government systems
+* Gained experience with system administration and troubleshooting
+* Developed strong analytical and problem-solving skills in structured technical environments
 
 ---
 
 ## EDUCATION
-**Bachelor’s Degree in Informatics Engineering** | University of Aleppo, Faculty of Informatics Engineering | Aleppo, Syria | 2015
-* Major focus on Software Engineering, Data Structures, and System Design.
+**Bachelor's Degree in Informatics Engineering** | University of Aleppo | Aleppo, Syria | 2010-2015
+* **Specialization:** Computer Networks & System Design
+* **Relevant Coursework:** Software Engineering, Data Structures, System Design, Network Protocols, Database Systems
+* Strong technical foundation in system architecture that enhances understanding of full-stack development and deployment
 
-**Additional:** Languages: Arabic (Native), English (Working Proficiency).
+## ADDITIONAL QUALIFICATIONS
+* **Self-Learning Excellence:** Proven ability to master complex technologies independently
+* **Cross-Platform Skills:** Experience with both system-level and web application technologies  
+* **Languages:** Arabic (Native), English (Working Proficiency)
+* **Problem-Solving:** Strong analytical approach from engineering and networking background
+* **Adaptability:** Successfully transitioned career focus while building on existing technical strengths

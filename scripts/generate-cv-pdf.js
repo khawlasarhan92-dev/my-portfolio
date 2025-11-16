@@ -6,7 +6,11 @@ async function generate() {
   const url = process.env.CV_URL || 'http://localhost:3000/cv';
   const outPath = path.join(__dirname, '..', 'public', 'cv.pdf');
 
-  const browser = await puppeteer.launch({ headless: 'chrome', args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+  const browser = await puppeteer.launch({ 
+    headless: true, 
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-web-security', '--disable-dev-shm-usage'],
+    executablePath: process.env.CHROME_PATH || undefined
+  });
   try {
     const page = await browser.newPage();
     await page.setViewport({ width: 1200, height: 900 });
