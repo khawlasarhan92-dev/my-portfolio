@@ -14,17 +14,24 @@ Location: Damascus, Syria | Open to remote or onsite opportunities.
 
 ## CORE TECHNICAL SKILLS
 - **Languages:** JavaScript (ES6+), TypeScript, HTML5, CSS3
-- **Frontend:** React.js, Next.js, Redux Toolkit, Tailwind CSS, Responsive Design
-- **Backend:** Node.js, Express.js, RESTful APIs, MongoDB (Mongoose), JWT Authentication
-- **DevOps & Deployment:** Docker, Kubernetes, CI/CD (GitHub Actions), Nginx Reverse Proxy
-- **Tools:** Git/GitHub, Socket.IO, VS Code, Postman, MongoDB Compass
+- **Frontend:** React.js, Next.js,Zustand, TanStack Query, Redux Toolkit, Tailwind CSS, Responsive Design
+- **Backend:** Node.js, Express.js, RESTful APIs, MongoDB (Aggregation Pipelines), RESTful APIs.
+- **DevOps & Deployment:** Docker, CI/CD (GitHub Actions), Nginx Reverse Proxy
+- **Real-Time:** Socket.io (WebSockets), Live Syncing, Real-time Notifications.
 - **Cloud & Platforms:** Render, Cloudflare Pages, Cloudinary
 
 ---
 
 ## SELECTED PROJECTS
 
-### 1. DevOps Practice — Full-Stack Task Management with CI/CD | (November 2025)
+### 1.Taskly — Enterprise Task Management & Real-Time Ecosystem | (Feb 2026)
+-> **Live Demo:** [https://task-manager-frontend-0pvi.onrender.com](https://task-manager-frontend-0pvi.onrender.com)
+* **Real-Time Engine:**Architected a high-concurrency synchronization layer using **Socket.io**, enabling instant task updates, live comments, and presence tracking across multiple clients.
+* **Advanced State & Cache:** Optimized frontend performance using **TanStack Query** for intelligent server-state caching and **Zustand** for persistent session management.
+* **Secure Infrastructure:** Implemented granular **Role-Based Access Control (RBAC)** and secure **JWT-based Middlewares** for both REST API and WebSocket handshakes. Registry
+* **DevOps & Scalability:** Fully containerized using **Docker** with **Nginx** reverse proxy and **GitHub Actions** for automated **CI/CD** pipelines
+
+### 2. DevOps Practice — Full-Stack Task Management with CI/CD | (November 2025)
 -> **GitHub:** [https://github.com/khawlasarhan92-dev/DevOps-Practice](https://github.com/khawlasarhan92-dev/DevOps-Practice)
 * **Production-Ready Development:** Built complete MERN stack application with responsive React frontend and RESTful API backend
 * **DevOps Implementation:** Created comprehensive **Docker containerization** for all services (Frontend, Backend, Database, Nginx Proxy)
@@ -32,13 +39,13 @@ Location: Damascus, Syria | Open to remote or onsite opportunities.
 * **Kubernetes Ready:** Configured complete **Kubernetes manifests** for scalable cloud deployment with proper networking and storage
 * **Technologies:** React.js, Node.js, Express, MongoDB, Docker, Kubernetes, GitHub Actions, Nginx
 
-### 2. KH Media App — Real-Time Social Platform (Next.js, Socket.IO, TypeScript) | (2025)
+### 3. KH Media App — Real-Time Social Platform (Next.js, Socket.IO, TypeScript) | (2025)
 -> Live Demo: [https://kh-media-app.pages.dev](https://kh-media-app.pages.dev)
 * **Real-Time Core:** Implemented live chat, user presence, and instant notifications using **Socket.IO** with JWT authorization for secure data exchange.
 * **Security & Auth:** Developed secure, token-based authentication (JWT) and user registration with **Email Verification (OTP)** logic.
 * **Performance:** Optimized user experience using Next.js Image Optimization, lazy loading, and a responsive UI built with Tailwind CSS.
 
-### 3. Full-Stack E-commerce Platform (Client + Admin Portal) | (2025)
+### 4. Full-Stack E-commerce Platform (Client + Admin Portal) | (2025)
 -> Live Demo: [https://mernstack-e-commerce-store.pages.dev](https://mernstack-e-commerce-store.pages.dev)
 * **Admin & Security:** Implemented robust **Role-Based Access Control (RBAC)** for admin routes, enabling secure management of product, order, and user data lifecycles.
 * **Data Management:** Engineered advanced product filtering and search capabilities utilizing **MongoDB Aggregation Pipelines**.
@@ -57,7 +64,7 @@ Location: Damascus, Syria | Open to remote or onsite opportunities.
 
 ### IT Specialist | 2016 - 2023
 **Government Sector | Damascus, Syria**
-* Managed IT infrastructure and provided technical support for government systems
+* Managed IT infrastructure and provided technical systems support.
 * Gained experience with system administration and troubleshooting
 * Developed strong analytical and problem-solving skills in structured technical environments
 
@@ -65,9 +72,8 @@ Location: Damascus, Syria | Open to remote or onsite opportunities.
 
 ## EDUCATION
 **Bachelor's Degree in Informatics Engineering** | University of Aleppo | Aleppo, Syria | 2010-2015
-* **Specialization:** Computer Networks & System Design
-* **Relevant Coursework:** Software Engineering, Data Structures, System Design, Network Protocols, Database Systems
-* Strong technical foundation in system architecture that enhances understanding of full-stack development and deployment
+* **Focus:** Software Engineering, Data Structures, System Design
+* Strong academic foundation in computational logic and algorithm design that directly enhances full-stack development.
 
 ## ADDITIONAL QUALIFICATIONS
 * **Self-Learning Excellence:** Proven ability to master complex technologies independently

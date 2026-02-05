@@ -32,7 +32,7 @@ const Services = () => {
       whileInView={{opacity:1}}
       transition={{duration:0.5 ,delay:0.7}}
       className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-      I provide modern web solutions, from building interactive websites and robust backends to integrating APIs and delivering seamless user experiences.
+     I deliver high-performance Full-Stack solutions, specializing in real-time architectures, scalable backend systems, and seamless user interfaces that drive business growth.
     </motion.p>
 
       <motion.div

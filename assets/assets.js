@@ -38,6 +38,8 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import cloudinary from './cloudinary.png';
  import shadcnui from './shadcnui.png';
 import tailwindcss from './tailwindcss.png';
+import docker from './docker.png';
+import react_query from './react-query.png';
 
 export const assets = {
     user_image,
@@ -50,6 +52,8 @@ export const assets = {
     vscode,
     postman,
     git,
+    docker,
+    react_query,
     mongodb,
     cloudinary,
     shadcnui,
@@ -82,9 +86,16 @@ export const assets = {
 };
 
 export const workData = [
+
+    {
+        title: 'Taskly | Real-Time Task Management',
+        description: 'A high-performance productivity tool built with MERN stack, Zustand, and Docker for professional workflows.',
+        bgImage: '/work-3.png', 
+        link: '/projects/taskly',
+    },
     {
         title: 'KH Media App',
-        description: 'A dynamic platform focused on user interaction, real-time updates, and engaging content delivery.',
+        description: 'A high-concurrency MERN system featuring WebSockets, RBAC security, and Docker containerization.',
         bgImage: '/work-1.png',
         link: '/projects/kh-media-app',
     },
@@ -97,17 +108,17 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web Development', description: 'Full-Cycle Web Development (Building robust, responsive, and secure applications from concept to production launch).', link: '' },
-    { icon: assets.coding, title: 'Frontend Development', description: 'Interactive & UX-Driven Frontend (Expertise in React.js and Redux Toolkit to build high-performance, user-centric interfaces).', link: '' },
-    { icon: assets.backend, title: 'Backend Development', description: 'Secure & Scalable Backend (MERN) (Developing RESTful APIs with Node.js/Express, focusing on JWT authentication and MongoDB Atlas integration).', link: '' },
-    { icon: assets.api, title: 'API Integration', description: 'Deployment & Infrastructure (Mastery in End-to-End Deployment across platforms like Render and Cloudflare Pages, including advanced CORS/Cookie configurations).', link: '' },
+    { icon: assets.web_icon, title: 'Full-Stack Development', description: 'Building end-to-end web applications using the MERN stack with a focus on scalability, clean architecture, and type safety.', link: '' },
+    { icon: assets.coding, title: 'Real-Time Solutions', description: 'Integrating WebSockets (Socket.io) for live chats, instant notifications, and real-time data synchronization across platforms.', link: '' },
+    { icon: assets.backend, title: 'Backend & API Design', description: 'Crafting robust RESTful APIs with Node.js/Express, featuring secure JWT authentication and complex MongoDB aggregations.', link: '' },
+    { icon: assets.api, title: 'DevOps & Deployment', description: 'Containerizing applications with Docker and managing automated deployments for consistent and reliable production environments.', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Frontend', description: 'HTML, CSS, JavaScript, React.js, Next.js' },
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Backend', description: 'Node.js, Express.js, MongoDB, Socket.io' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Frontend', description: 'HTML, CSS, JavaScript, React.js,Zustand, React Query, Next.js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Backend', description: 'Node.js, Express.js, MongoDB, Socket.io, Docker' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc in Informatics Engineering, Self-taught Full Stack Developer' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built multiple real-world projects including a social media app and an e-commerce store' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built advanced MERN systems including Taskly and E-commerce Store and a social media app ' }
 ];
 
 export const toolsData = [
@@ -118,6 +129,8 @@ export const toolsData = [
     assets.cloudinary,
     assets.shadcnui,
     assets.tailwindcss,
+    assets.docker,
+    assets.react_query
 
 
    

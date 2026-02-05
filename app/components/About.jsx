@@ -52,11 +52,11 @@ const About = ({isDarkMode}) => {
               className='text-5xl font-Ovo mb-10'>About Me</motion.h2>
 
             <p className='font-Ovo max-w-full lg:max-w-2xl text-sm sm:text-base'>
-               I am a **Full-Stack MERN Developer** specializing in building robust and scalable web applications. My journey into development is fueled by a **strong foundation in Informatics Engineering**, which has refined my **analytical thinking and approach to logical problem-solving**.
+               I am a **Full-Stack MERN Developer** with a degree in **Informatics Engineering**, blending rigorous academic logic with a passion for building high-performance web ecosystems. 
 
-                Through dedicated self-driven learning, I have mastered end-to-end MERN technologies, focusing on clean code, secure **JWT authentication**, and efficient deployment strategies using platforms like **Render and Cloudflare Pages**.
+                My expertise lies in developing **real-time, production-ready applications** that solve complex business logic. I specialize in the **MERN stack**, with a deep focus on **Socket.io** for live synchronization, **TanStack Query** for advanced server-state management, and **Zustand** for lightweight global state.
 
-                My hands-on experience comes directly from deploying complex, real-world projects—including a comprehensive e-commerce platform. I thrive on technical challenges and am committed to translating complex requirements into reliable, user-centric digital experiences.
+                I am committed to engineering secure, scalable solutions—utilizing **JWT Auth flows, Axios Interceptors, and Docker containerization**. I don't just write code; I architect user-centric digital experiences that are reliable, fast, and secure.
             </p>
 
          
