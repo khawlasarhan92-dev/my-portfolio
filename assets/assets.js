@@ -36,7 +36,7 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import cloudinary from './cloudinary.png';
- import shadcnui from './shadcnui.png';
+import shadcnui from './shadcnui.png';
 import tailwindcss from './tailwindcss.png';
 import docker from './docker.png';
 import react_query from './react-query.png';
@@ -86,7 +86,12 @@ export const assets = {
 };
 
 export const workData = [
-
+    {
+        title: 'InvoSpark ERP | Financial & Inventory Platform',
+        description: 'An enterprise-grade multi-branch ERP built with NestJS 11, Next.js 15, Prisma ORM, PostgreSQL, and Socket.IO.',
+        bgImage: '/work-4.png', 
+        link: '/projects/invospark',
+    },
     {
         title: 'Taskly | Real-Time Task Management',
         description: 'A high-performance productivity tool built with MERN stack, Zustand, and Docker for professional workflows.',
@@ -105,20 +110,20 @@ export const workData = [
         bgImage: '/work-2.png',
         link: '/projects/e-commerce-store',
     },
-]
+];
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Full-Stack Development', description: 'Building end-to-end web applications using the MERN stack with a focus on scalability, clean architecture, and type safety.', link: '' },
-    { icon: assets.coding, title: 'Real-Time Solutions', description: 'Integrating WebSockets (Socket.io) for live chats, instant notifications, and real-time data synchronization across platforms.', link: '' },
-    { icon: assets.backend, title: 'Backend & API Design', description: 'Crafting robust RESTful APIs with Node.js/Express, featuring secure JWT authentication and complex MongoDB aggregations.', link: '' },
-    { icon: assets.api, title: 'DevOps & Deployment', description: 'Containerizing applications with Docker and managing automated deployments for consistent and reliable production environments.', link: '' },
-]
+    { icon: assets.web_icon, title: 'Full-Stack & ERP Development', description: 'Architecting scalable, end-to-end web applications and Enterprise systems using Next.js 15, NestJS, and modern database architectures.', link: '' },
+    { icon: assets.coding, title: 'Real-Time Systems', description: 'Integrating WebSockets (Socket.IO) for live data updates, instant messaging, notification systems, and high-concurrency event syncing.', link: '' },
+    { icon: assets.backend, title: 'Enterprise Backend & APIs', description: 'Crafting robust RESTful APIs with NestJS & Node.js, with secure RBAC/JWT authentication, Prisma ORM, and complex PostgreSQL aggregations.', link: '' },
+    { icon: assets.api, title: 'DevOps & Architecture', description: 'Containerizing applications with Docker, establishing clean layered architecture, and managing consistent production deployment environments.', link: '' },
+];
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Frontend', description: 'HTML, CSS, JavaScript, React.js,Zustand, React Query, Next.js' },
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Backend', description: 'Node.js, Express.js, MongoDB, Socket.io, Docker' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc in Informatics Engineering, Self-taught Full Stack Developer' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built advanced MERN systems including Taskly and E-commerce Store and a social media app ' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Frontend', description: 'HTML, CSS, JavaScript, React.js, Next.js 15, Zustand, TanStack Query, Tailwind CSS, Shadcn UI' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Backend', description: 'NestJS 11, Node.js, Express.js, PostgreSQL, Prisma ORM, MongoDB, Socket.IO, Docker' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc in Informatics Engineering | Software Architecture & Web Engineering' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Architected Enterprise Full-Stack platforms including InvoSpark ERP, Taskly, and KH Media' }
 ];
 
 export const toolsData = [
@@ -131,7 +136,4 @@ export const toolsData = [
     assets.tailwindcss,
     assets.docker,
     assets.react_query
-
-
-   
 ];

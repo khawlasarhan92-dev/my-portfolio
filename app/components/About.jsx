@@ -1,7 +1,7 @@
 import { motion } from "motion/react"
 import React from 'react'
 import Image from 'next/image'
-import { assets, infoList, toolsData } from '@/assets/assets'
+import { assets, infoList, toolsData } from '../../assets/assets'
 
 const About = ({isDarkMode}) => {
   return (
@@ -11,26 +11,21 @@ const About = ({isDarkMode}) => {
         transition={{duration:1}}
         className='w-full px-4 sm:px-10 lg:px-[12%] py-10 scroll-mt-20 overflow-x-hidden' id='about'>
 
-     
       <motion.div
         initial={{opacity:0}}
         whileInView={{opacity:1}}
         transition={{duration:0.8}}
-       
         className='flex w-full flex-col lg:flex-row items-start gap-8 my-0 mt-8 '>
-        
 
-    
         <motion.div 
             initial={{opacity:0 ,scale:0.9}}
             whileInView={{opacity:1 , scale:1}}
             transition={{duration:0.6}}
-            className='w-full max-w-xs sm:max-w-sm rounded-3xl max-w-none mx-auto lg:mx-0'>
+            className='w-full max-w-xs sm:max-w-sm rounded-3xl mx-auto lg:mx-0'>
           <Image src={assets.user_image} alt='User Image'
             className='w-full rounded-3xl' />
         </motion.div>
 
-       
         <motion.div
             initial={{opacity:0}}
             whileInView={{opacity:1}}
@@ -41,25 +36,25 @@ const About = ({isDarkMode}) => {
               initial={{opacity:0 ,y:-20}}
               whileInView={{opacity:1 , y:0}}
               transition={{duration:0.5 ,delay:0.3}}
-           
               className='mb-2 text-lg font-Ovo'>Introduction</motion.h4>
 
             <motion.h2
                 initial={{opacity:0 ,y:-20}}
               whileInView={{opacity:1 , y:0}}
               transition={{duration:0.5 ,delay:0.5}}
-             
               className='text-5xl font-Ovo mb-10'>About Me</motion.h2>
 
-            <p className='font-Ovo max-w-full lg:max-w-2xl text-sm sm:text-base'>
-               I am a **Full-Stack MERN Developer** with a degree in **Informatics Engineering**, blending rigorous academic logic with a passion for building high-performance web ecosystems. 
+            <p className='font-Ovo max-w-full lg:max-w-2xl text-sm sm:text-base leading-relaxed'>
+               I am a <strong>Full-Stack Software Engineer</strong> with a degree in <strong>Informatics Engineering</strong>, blending academic computer science principles with hands-on expertise in building scalable, enterprise-grade web ecosystems. 
 
-                My expertise lies in developing **real-time, production-ready applications** that solve complex business logic. I specialize in the **MERN stack**, with a deep focus on **Socket.io** for live synchronization, **TanStack Query** for advanced server-state management, and **Zustand** for lightweight global state.
+               <br/><br/>
 
-                I am committed to engineering secure, scalable solutions—utilizing **JWT Auth flows, Axios Interceptors, and Docker containerization**. I don't just write code; I architect user-centric digital experiences that are reliable, fast, and secure.
+               My engineering focus centers on architecting <strong>high-concurrency, real-time web platforms</strong> and complex backend workflows. I specialize in modern Full-Stack technologies including <strong>Next.js 15, NestJS 11, PostgreSQL, Prisma ORM, and the MERN stack</strong>, leveraging <strong>Socket.IO</strong> for real-time synchronization and <strong>Docker</strong> for containerization.
+
+               <br/><br/>
+
+               I am committed to designing secure and reliable software—incorporating <strong>RBAC authentication, transactional database flows, and clean code principles</strong>. I don't just write code; I build robust digital solutions tailored to complex business requirements.
             </p>
-
-         
 
             <motion.ul
                 initial={{opacity:0}}
@@ -67,8 +62,7 @@ const About = ({isDarkMode}) => {
                 transition={{duration:0.8 ,delay:1}} 
                 className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 max-w-full lg:max-w-2xl mt-10'> 
 
-             
-              {infoList.map(({ icon, iconDark,title, description }, index) => (
+              {infoList.map(({ icon, iconDark, title, description }, index) => (
                 <motion.li 
                   whileHover={{scale:1.05}}
                   key={index} className='border-[0.5px] border-gray-400 rounded-xl
@@ -96,7 +90,7 @@ const About = ({isDarkMode}) => {
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
                 transition={{duration:0.6 ,delay:1.5}} 
-                className='flex items-center gap-2 sm:gap-5'>
+                className='flex flex-wrap items-center gap-2 sm:gap-5'>
 
                 {toolsData.map((tool , index) =>(
                   <motion.li 
